@@ -1,0 +1,137 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="left_block.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+ 
+    <title>Document</title>
+ </head>
+ <body>
+    <div class="navbar">
+
+        <h1 class="logo"> e!</h1>
+        <h2 class="Create_TO_AC">Create A account</h2>
+        <h2 class="login_TO_AC"> Login</h2>
+
+    </div> 
+    <div class="head"> 
+        <p> Breakfast Places in Mumbai</p>
+    </div>
+    <!-- following is the code for Filters div -->
+    <div class="filter"><br>
+        <h1 class="filter_s">Filters</h1>
+        <div class="dat">
+        <label   for="location"></label>
+        <select name="area" id="area_area">
+            <option value=""  id="loc">--choose location---</option> <br><br>
+            <option value="area a">area a</option>
+            <option value="area b">area b</option>
+            <option value="area c">area c</option>
+            <option value="area d">area d</option>
+        </select>
+         
+        <!-- option button code has ended -->
+        <p class="Head_Name">Cuisine</p> <br>
+        <!-- for 1st type of food -->
+        <input type="checkbox" id=" North_Indian" name="food_Type_1" value="North_food">
+        <label for="food_Type_1"> North Indian</label> <br>
+        <!-- for 2nd type of food -->
+        <input type="checkbox" id="South_Indian" name="food_type_2" value="South_food">
+        <label for="food_type_2"> North Indian</label> <br>
+        <!-- for 3rd type of food -->
+        <input type="checkbox" id="chinease_food" name="food_type_3" value="China">
+        <label for="food_type_3"> Chineese</label> <br>
+        <!-- for 4th type of food -->
+        <input type="checkbox" id="fast_food" name="food_type_4" value="fast_food">
+        <label for="food_type_4"> fast food</label> <br>
+        <!-- for 5th type of food -->
+        <input type="checkbox" id="street_food" name="food_type_5" value="street_food">
+        <label for="food_type_5"> street food</label> <br>
+
+        <!--   end of select button -->
+
+        <!-- following code for radio button -->
+        <p class="cost_radio"> Cost For Two</p> <br>
+        <input type="radio" name="cost" value="less_than_500">
+        <label for="less_than_500"> less than 500</label> <br>
+        <input type="radio" name="cost" value="between_500_1000">
+        <label for="between_500_1000">500 to 1000</label> <br>
+        <input type="radio" name="cost" value="between_1000_1500">
+        <label for="between_1000_1500"> 1000 to 1500</label> <br>
+        <input type="radio" name="cost" value="between_1500_2000">
+        <label for="between_1500_2000"> 1500 to 2000</label> <br>
+        <input type="radio" name="cost" value="above_2000">
+        <label for="above_2000"> 2000+</label>
+        <!--   end of radio button -->
+
+        <!-- following code is for sort -->
+        <p class="sort"> Sort</p> <br>
+        <input type="radio" name="sort" value="low_to_high">
+        <label for="low_to_high"> Price low to high</label> <br>
+        <input type="radio" name="sort" value="high_to_low">
+        <label for="high_to_low"> Price high to low</label>
+        <!-- end of radio {sort button } -->
+    </div>
+    </div>
+ 
+
+     <div class="main_div">
+        <div class="backery_shop">
+            <img src="./images/breakfast.jpg" alt="" >
+            <div class="data">
+           <h1 class="heading" > The Big Chill Cakery</h1>
+            <p class="FORT"> FORT</p>
+            <p class="address"> shop 1,plot D,Samruddhi Complex,Chincholi</p>
+           
+       
+        </div>
+        <br><br>
+        <hr>
+        <div class="price_data_1">
+            <p> CUISINES:</p><br>
+            <p> COST FOR TWO:</p>
+        </div>
+        <div class="price_data_2">
+            <p>bakery</p><br>
+            <p> &#8377 700</p>
+        </div>
+         
+       </div>
+
+
+
+      <div class="backery_shop_1">
+            <img src="./images/breakfast.jpg" alt="" >
+            <div class="data">
+           <h1 class="heading" > The Big Chill Cakery</h1>
+            <p class="FORT"> FORT</p>
+            <p class="address"> shop 1,plot D,Samruddhi Complex,Chincholi</p>
+
+        </div>
+        <br><br>
+        <hr>
+        <div class="price_data_1">
+            <p> CUISINES:</p><br>
+            <p> COST FOR TWO:</p>
+        </div>
+        <div class="price_data_2">
+            <p>bakery</p><br>
+            <p> &#8377 700</p>
+        </div>
+   
+    </div>
+    </div>
+    <div class="btn"> 
+        <a href="#"> <button> &laquo;</button></a>
+        <a href="#"> <button> 1    </button></a>
+        <a href="#"> <button> 2   </button></a>
+        <a href="#"> <button> 3   </button></a>
+        <a href="#"> <button> 4   </button></a>
+        <a href="#"> <button> 5   </button></a>
+        <a href="#"> <button> &raquo;</button></a>
+     </div>
+ </body>
+ </html>
